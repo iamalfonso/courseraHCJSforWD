@@ -1,0 +1,64 @@
+body {
+	font-size: 16px;
+}
+/* Header */
+
+.navbar {
+	background-color: #C2EDB4;
+}
+
+.navbar-brand h1 {
+	font-size: 1.5em;
+	margin-top: 0px;
+	font-weight: bold;
+	color: #144F00;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 2px solid #144F00;
+}
+
+.full-width {
+	width: 100% !important;
+}
+
+#menu-list, #xs-collapse-menu {
+	background-color: #FFDAC7;
+}
+
+#menu-list a {
+	color: #E3753D;	
+	font-size: 1.2em;
+}
+
+#menu-list a:hover {
+	background-color: #E3753D;
+	color: white;
+}
+
+/* Content */
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 1.3em;
+	padding-top: 10px;
+}
+
+p {
+	padding: 5px;
+}
+
+.tall-section {
+	background-color: #E0E0E0;
+	margin: 10px 20px;
+}
+
+/* Applies to small, medium and large devices */
+@media (min-width: 768px) {
+	#xs-collapse-menu {
+		background-color: transparent;
+	}
+}
