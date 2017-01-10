@@ -48,12 +48,11 @@ h3 {
 }
 
 p {
-	padding: 5px;
+	padding: 15px;
 }
 
-.tall-section {
+.food-section {
 	background-color: #E0E0E0;
-	margin: 10px 20px;
 }
 
 /* Applies to small, medium and large devices */
